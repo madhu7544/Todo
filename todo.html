@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/todo.css">
+</head>
+<html>
+
+<body>
+    <div class="todo-container">
+        <h1 class="head">Todo Application</h1>
+        <div class="input-container">
+            <input type="text" placeholder="Enter Text" id="input" class="input-field" />
+            <button type="button" id="addContent" class="button">Add</button>
+            <button type="button" id ="editNew" class="edit button button-color">Edit</button>
+        </div>
+        <hr />
+        <div class="no-records-contaier" >
+            <h3 class="no-records-text" id="norecords">No Records Found</h3>
+            <ul class="todosList" id="todoItem">
+            </ul>
+        </div>
+        
+        <div class="remove-all">
+            <button  id="remove" class="remove-button">Remove All</button>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+
+</html>

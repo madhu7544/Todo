@@ -1,0 +1,108 @@
+.head {
+    text-align: center;
+    color: blue;
+    font-family: "Roboto";
+}
+
+.input-field {
+    height: 30px;
+    width: 200px;
+    font-family: "Roboto";
+}
+
+.button {
+    color: white;
+    background-color:green;
+    font-family: "Roboto";
+    font-size: 16px;
+    border-width: 0;
+    border-radius: 4px;
+    width: 70px;
+    height: 36px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.todosList {
+    list-style-type: none;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todo-item {
+    color: #011209;
+    font-family: "Roboto";
+    font-size: 20px;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-button {
+    color: white;
+    background-color: #9c4f43;
+    font-family: "Roboto";
+    font-size: 12px;
+    border-width: 0;
+    border-radius: 4px;
+    width: 70px;
+    height: 28px;
+    margin-left: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.no-records-contaier{
+    border:solid;
+    border-width: 1px;
+    margin-top:50px;
+    margin-left:300px;
+    margin-right: 300px;
+    margin-bottom:50px;
+    border-radius: 10px;
+    border-color:#9c9680;
+    background-color: #4c6b8c;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.no-records-text{
+    font-family: "Roboto";
+    font-weight:bold;
+    font-size:24px;
+    color:red;
+    text-align: center;
+}
+
+.remove-all{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.remove-button{
+    color: white;
+    background-color: red;
+    font-family: "Roboto";
+    font-size: 12px;
+    border-width: 0;
+    border-radius: 4px;
+    width: 100px;
+    height: 36px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.edit{
+    display: none;
+}
+.button-color{
+    background-color:#9c4f43;
+}
